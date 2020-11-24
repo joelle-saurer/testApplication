@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="joelleMaven.AppTest" time="0.065" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="joelleMaven.AppTest" time="0.053" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/joelle/DevOps-Challenges/Maven/testApplication/target/test-classes:/home/joelle/DevOps-Challenges/Maven/testApplication/target/classes:/home/joelle/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/joelle/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.class.path" value="/home/joelle/DevOps-Challenges/Maven/testApplication/target/test-classes:/home/joelle/DevOps-Challenges/Maven/testApplication/target/classes:/opt/Maven/apache-maven-3.6.3/.m2/repository/junit/junit/4.11/junit-4.11.jar:/opt/Maven/apache-maven-3.6.3/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="java.vm.vendor" value="Red Hat, Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://www.redhat.com/"/>
@@ -16,8 +16,8 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.272.b10-0.fc32.x86_64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/joelle/DevOps-Challenges/Maven/testApplication/target/surefire/surefirebooter4903914655012094004.jar /home/joelle/DevOps-Challenges/Maven/testApplication/target/surefire 2020-11-18T11-46-28_359-jvmRun1 surefire7984848087139025569tmp surefire_05614514714182177544tmp"/>
-    <property name="surefire.test.class.path" value="/home/joelle/DevOps-Challenges/Maven/testApplication/target/test-classes:/home/joelle/DevOps-Challenges/Maven/testApplication/target/classes:/home/joelle/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/joelle/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.java.command" value="/home/joelle/DevOps-Challenges/Maven/testApplication/target/surefire/surefirebooter3454601111528051277.jar /home/joelle/DevOps-Challenges/Maven/testApplication/target/surefire 2020-11-23T12-49-02_881-jvmRun1 surefire2804336410475622782tmp surefire_0939748904744792765tmp"/>
+    <property name="surefire.test.class.path" value="/home/joelle/DevOps-Challenges/Maven/testApplication/target/test-classes:/home/joelle/DevOps-Challenges/Maven/testApplication/target/classes:/opt/Maven/apache-maven-3.6.3/.m2/repository/junit/junit/4.11/junit-4.11.jar:/opt/Maven/apache-maven-3.6.3/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/root"/>
     <property name="user.language" value="en"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/joelle/DevOps-Challenges/Maven/testApplication/target/surefire/surefirebooter4903914655012094004.jar"/>
+    <property name="surefire.real.class.path" value="/home/joelle/DevOps-Challenges/Maven/testApplication/target/surefire/surefirebooter3454601111528051277.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.272.b10-0.fc32.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.272.b10-0.fc32.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.272.b10-0.fc32.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.272.b10-0.fc32.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.272.b10-0.fc32.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.272.b10-0.fc32.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.272.b10-0.fc32.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.272.b10-0.fc32.x86_64/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_272-b10"/>
@@ -40,7 +40,7 @@
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="localRepository" value="/home/joelle/.m2/repository"/>
+    <property name="localRepository" value="/opt/Maven/apache-maven-3.6.3/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugzilla.redhat.com/enter_bug.cgi?product=Fedora&amp;component=java-1.8.0-openjdk&amp;version=32"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="1.8.0_272"/>
